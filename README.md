@@ -108,7 +108,7 @@ spinet-demo-esp32/
 │   └── EC718_SFDT_SPI_AT_移植指南.md
 ├── partitions.csv               # 分区表
 ├── sdkconfig.defaults           # 默认 Kconfig（lwIP / mbedTLS 等）
-├── CMakeLists.txt               # 工程入口：project(quic-client)
+├── CMakeLists.txt               # 工程入口：project(http-client)
 └── README.md
 ```
 
