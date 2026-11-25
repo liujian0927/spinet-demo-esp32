@@ -22,8 +22,8 @@ ESP32-C3 通过一条 SPI 链路把 EC718（移芯 Cat.1 模组）当作 4G 网�
 | 信号 | ESP32-C3 | EC718 | 说明 |
 |---|---|---|---|
 | SCLK | GPIO4 | SPI0 CLK | |
-| MOSI | GPIO6 | SPI0 MISO | |
-| MISO | GPIO5 | SPI0 MOSI | |
+| MOSI | GPIO6 | SPI0 MOSI | 同名直连，无需交叉 |
+| MISO | GPIO5 | SPI0 MISO | 同名直连，无需交叉 |
 | CS | GPIO3 | SPI0 SS | 可选，硬件自动 CS |
 | MRDY | GPIO10 | MRDY | 主机请求窗口，空闲低 |
 | SRDY | GPIO7 | SRDY | 从机就绪，**上升沿中断** |
